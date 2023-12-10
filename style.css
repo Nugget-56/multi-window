@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+svg,
+video {
+  position: absolute;
+  pointer-events: none;
+}
+
+svg {
+  z-index: 2;
+}
+
+body {
+  overflow: hidden;
+}
